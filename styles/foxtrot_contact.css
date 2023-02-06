@@ -1,0 +1,26 @@
+  
+  
+  /* CONTACT */
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.fa-brands {
+  font-size: 100px;
+  margin: auto 50px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.fa-brands:hover {
+  color: var(--secondary-color);
+}
+
+  /* Media Queries */
+  @media screen and (max-width: 100px) {
+    
+  }

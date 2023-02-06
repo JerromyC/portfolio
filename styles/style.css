@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('/styles/animations.css');
+
+ /* MEDIA QUERIES
+
+  @media screen and (max-width: 1000px) {
+      section {
+          padding: 100px 10px;
+      }
+      
+      section#home {
+          padding: 0px;
+      }
+
+      h1 {
+        font-size: 4em;
+        text-align: center;
+        margin: auto 25px;
+      }
+
+      h2 {
+          font-size: 1.5rem;
+          margin: auto 25px;
+      }
+
+      .about-container {
+          flex-direction: column;
+          margin-bottom: 50px;
+      }
+
+      .image-container {
+          margin-right: 0px;
+          margin-bottom: 25px;
+      }
+
+      img {
+          height: 50vw;
+          width: 50vw;
+      }
+
+      .buttons {
+          flex-direction: column;
+      }
+
+      button {
+          margin-right: 0px;
+          margin-bottom: 10px;
+          width: 60vw;
+      }
+
+      .text-box {
+          width: 50vw;
+      }
+  } */

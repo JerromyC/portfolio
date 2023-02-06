@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerromy Portfolio</title>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/344/puzzle.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/alpha.css">
+</head>
+<body>
+    <!-- Color mode switch -->
+    <div class="theme-switch-wrapper">
+        <i class="fas fa-sun"></i>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+        <i class="fas fa-moon"></i>
+    </div>
+    <!-- NAV -->
+    <nav id="nav">
+        <a href="#home">HOME</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+        <div class="title-group">
+            <span>Hello! My name is,</span>
+            <h1>Jerromy Chance</h1>
+            <h2>Front-end Web Developer!</h2>
+        </div>
+    </section>
+    <hr>
+    <section id="projects">
+        <h1>Recent Projects</h1>
+        <div class="project-container">
+            <div class="project project01">
+                <div class="project-info p-i-01">
+                    <h3>Joke Telling Robot</h3>
+                    <p>What I learned</p>
+                    <ul>
+                        <li>Text-to-Speech with JS</li>
+                        <li>Linking multiple API</li>
+                        <li>Await synchronization</li>
+                        <li>Some funny dev jokes!</li>
+                    </ul>
+                </div>
+                <a class="project-link" href="https://jerromyc.github.io/joke-robot/" target="_blank">Live Project</a>
+            </div>
+            <div class="project project02">
+                <div class="project-info p-i-02">
+                    <h3>Quote Generator</h3>
+                    <p>What I learned</p>
+                    <ul>
+                        <li>Using a local object in place of an API</li>
+                        <li>Cycle through an object randomly</li>
+                        <li>Post to twitter from an external site</li>
+                        <li>That Edgar Allen Poe had nothing nice to say</li>
+                    </ul>
+                </div>
+                <!-- <img src="img/undraw_feeling_proud_light.svg" alt="feeling proud" id="img02"> -->
+                <a class="project-link" href="https://jerromyc.github.io/quote-generator/" target="_blank">Live Project</a>
+            </div>
+            <div class="project project03">
+                <div class="project-info p-i-03">
+                    <h3>Infinite Scroll</h3>
+                    <p>I learned how to...</p>
+                    <ul>
+                        <li>Upload images randomly</li>
+                        <li>Run a function on page scroll so the page appears infinite</li>
+                        <li>Use Async functions</li>
+                        <li>Apply array.forEach() to set element attributes</li>
+                    </ul>
+                </div>
+                <!-- <img src="img/undraw_conceptual_idea_light.svg" alt="conceptual idea" id="img03"> -->
+                <a class="project-link" href="https://jerromyc.github.io/unsplash-api_infinite-image-scroll/" target="_blank">Live Project</a>
+            </div>
+        </div>
+        <div class="project-icons">
+            <h3>Find more of my work here:</h3>
+            <div class="social-icons">
+                <i class="fa-brands fa-github-alt"></i>
+                <i class="fa-brands fa-codepen"></i>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1>About</h1>
+        <div class="buttons">
+            <button class="primary">Goals/Aspirations</button>
+            <button class="secondary">Secondary</button>
+            <button class="tertiary">Tertiary</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, consequatur asperiores, libero provident mollitia similique aspernatur adipisci omnis eius quam rem fugiat exercitationem incidunt maiores quis eum error? Alias, eligendi.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>Contact Me!!</h1>
+        <div class="social-icons">
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-discord"></i>
+        </div>
+    </section>
+        <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+
+/* Projects */
+
+  #projects {
+    padding-top: 50px;
+  }
+
+  .project-container {
+    width: 90%;
+    margin: 25px 10vw;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    grid-template-rows: 1fr;
+  }
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 20px;
+    background: #f5f5f5E6;
+    background-size: cover;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    z-index: 1;
+}
+
+ .project::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: var(--on-background);
+  background-size: cover;
+  z-index: 5;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.project01::after {
+  background-image: url(/img/talking-robot.JPG);
+}
+
+.project02::after {
+  background-image: url(/img/quote-generator.JPG);
+}
+
+.project03::after {
+  background-image: url(/img/image\ scroll.JPG);
+}
+
+.project:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s ease-in;
+}
+
+#projects h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.project-info {
+    height: 100%;
+    width: 100%;
+    min-height: 200px;
+    min-width: 200px;
+    color: #333;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.project-info p {
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+}
+
+.project-info ul {
+  text-align: left;
+}
+
+.project-link {
+  width: 50%;
+  height: 40px;
+  margin: 10px auto;
+  margin-bottom: 0px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  color: #333;
+  background-color: #f5f5f5;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 35px;
+  text-decoration: none;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.project-link::before {
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+  .project-link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+    z-index: -1;
+    opacity: 0.25;
+    border-radius: none;
+    color: white;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 250ms ease-in;
+  }
+
+  .project-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.4s ease-in;
+  }
+  
+  .project-icons h3 {
+    color: var(--on-background);
+  }
+
+  .project-icons {
+    opacity: 0.5;
+  }
+
+  .project-icons:hover {
+    opacity: 1;
+  }
+
+    /* Media Queries */
+    @media screen and (max-width: 100px) {
+    
+    }
