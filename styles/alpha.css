@@ -1,10 +1,10 @@
-@import url('./beta_nav.css');
-@import url('./charlie_home.css');
-@import url('./delta_projects.css');
-@import url('./echo_about.css');
-@import url('./foxtrot_contact.css');
-@import url('./golf_mode-change.css');
-@import url('./style.css');
+@import url('beta_nav.css');
+@import url('charlie_home.css');
+@import url('delta_projects.css');
+@import url('echo_about.css');
+@import url('foxtrot_contact.css');
+@import url('golf_mode-change.css');
+@import url('style.css');
 
 
 :root {
